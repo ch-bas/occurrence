@@ -1,7 +1,7 @@
 
  # Simple occurence script made with Nodejs and ExpressJs, using modules: cheerio & request" 
 
-To use , simply clone the project thenrun
+To use , simply clone the project then run
 ```
 npm install
 ```
