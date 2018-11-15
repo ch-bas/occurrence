@@ -6,10 +6,14 @@ To use , simply clone the project then run
 npm install
 ```
 
-And navigate to 
+And then navigate to 
 
 ```
 http://localhost:3000/string
+```
+with the command
+```
+npm start
 ```
 where string is the string you want to search its number of occurence
 ## Getting Started
