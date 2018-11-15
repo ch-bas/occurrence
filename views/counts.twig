@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h3 class="jumbotron-heading">Occurrence match of  <i>" {{ matched }} "</i></h3>
+    <ul class="list-group">
+        {% set sum = 0 %}
+        {% for u in url %}
+            <li class="list-group-item">
+
+                {{ u.url }}
+                <b><i>{{ u.occurrence }} </i></b>
+                {% set sum = sum + u.occurrence %}
+            </li>
+        {% endfor %}
+        <li class="list-group-item">
+            The total number is:<b><i>{{ sum }}</i></b>
+        </li>
+    </ul>
+{% endblock %}
