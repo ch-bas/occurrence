@@ -6,12 +6,10 @@ const options = {
         return cheerio.load(body);
     }
 };
+//list of urls
 var urls = [
-    "https://www.uniberg.com/index.html",
-    "https://www.uniberg.com/leistungen.html",
-    "https://www.uniberg.com/referenzen.html",
-    "https://www.uniberg.com/karriere.html",
-    "https://www.uniberg.com/kontakt.html"
+    "https://en.wikipedia.org/wiki/George_Washington",
+    "https://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States"
 ];
 
 var str = process.argv[2];
